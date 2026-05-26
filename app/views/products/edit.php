@@ -14,7 +14,7 @@
 
 <form
     method="POST"
-    action="/webbanhang/Product/update"
+    action="/WebBanHang_CNPM/Product/update"
     enctype="multipart/form-data"
     onsubmit="return validateForm();">
 
@@ -87,7 +87,7 @@
     <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
 </form>
 
-<a href="/webbanhang/Product/list" class="btn btn-secondary mt-2">
+<a href="/WebBanHang_CNPM/Product/list" class="btn btn-secondary mt-2">
     Quay lại danh sách sản phẩm
 </a>
 

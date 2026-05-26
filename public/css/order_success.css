@@ -1,0 +1,68 @@
+/* ==========================================================================
+   FILE: ORDER_SUCCESS.CSS - GIAO DIỆN XÁC NHẬN ĐƠN HÀNG CYBER THEME
+   ========================================================================== */
+
+.success-container {
+    max-width: 650px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.success-card {
+    background: linear-gradient(145deg, rgba(15, 23, 42, 0.96), rgba(8, 47, 73, 0.85));
+    border-radius: 24px;
+    border: 1px solid rgba(34, 211, 238, 0.3);
+    padding: 45px 30px;
+    text-align: center;
+    box-shadow: 0 0 35px rgba(34, 211, 238, 0.15), 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* Biểu tượng thành công hiệu ứng Hologram */
+.success-icon-wrapper {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 25px auto;
+    background: rgba(34, 211, 238, 0.1);
+    border: 2px dashed #22d3ee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotateContainer 20s linear infinite;
+}
+
+.success-icon {
+    font-size: 42px;
+    color: #67e8f9;
+    text-shadow: 0 0 15px rgba(103, 232, 249, 0.8);
+    /* Giữ biểu tượng đứng yên khi vòng ngoài quay */
+    animation: counterRotate 20s linear infinite; 
+}
+
+/* Nhóm nút bấm */
+.success-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Animation quay vòng tròn nét đứt */
+@keyframes rotateContainer {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes counterRotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+@media (max-width: 480px) {
+    .success-actions {
+        flex-direction: column;
+    }
+    .btn-history, .btn-checkout {
+        width: 100%;
+    }
+}

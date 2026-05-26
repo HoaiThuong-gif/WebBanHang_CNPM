@@ -15,76 +15,13 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma;
     color: #dbeafe;
     background:
         radial-gradient(circle at 15% 10%, rgba(14, 165, 233, 0.22), transparent 28%),
         radial-gradient(circle at 85% 18%, rgba(34, 211, 238, 0.18), transparent 26%),
         radial-gradient(circle at 50% 90%, rgba(59, 130, 246, 0.16), transparent 32%),
         linear-gradient(135deg, #020617 0%, #07111f 42%, #0b1f33 100%);
-}
-
-/* =========================
-   NỀN TRÁI TIM XANH NHỎ LẤP LÁNH
-========================= */
-body::before,
-body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 0;
-}
-
-/* Tim xanh nhỏ, thưa hơn, đỡ rối mắt */
-body::before {
-    background-image:
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='5' y='17' font-size='10' fill='%2367e8f9' opacity='0.78'%3E%E2%99%A5%3C/text%3E%3C/svg%3E"),
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Ctext x='6' y='19' font-size='11' fill='%2322d3ee' opacity='0.62'%3E%E2%99%A5%3C/text%3E%3C/svg%3E"),
-        radial-gradient(circle, rgba(255, 255, 255, 0.78) 0 1px, transparent 3px),
-        radial-gradient(circle, rgba(125, 211, 252, 0.55) 0 1.2px, transparent 4px);
-
-    background-size:
-        165px 165px,
-        240px 240px,
-        150px 150px,
-        260px 260px;
-
-    background-position:
-        20px 30px,
-        95px 120px,
-        45px 85px,
-        130px 45px;
-
-    opacity: 0.55;
-    animation:
-        heartDrift 30s linear infinite,
-        heartPulse 2.8s ease-in-out infinite alternate;
-}
-
-/* Lớp tim sáng ít hơn, chỉ để tạo cảm giác lấp lánh */
-body::after {
-    background-image:
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34'%3E%3Ctext x='8' y='23' font-size='13' fill='%23a5f3fc' opacity='0.7'%3E%E2%99%A5%3C/text%3E%3C/svg%3E"),
-        radial-gradient(circle, rgba(255, 255, 255, 0.82) 0 1.5px, transparent 5px),
-        radial-gradient(circle, rgba(103, 232, 249, 0.62) 0 1.8px, transparent 6px);
-
-    background-size:
-        340px 340px,
-        210px 210px,
-        390px 390px;
-
-    background-position:
-        60px 100px,
-        130px 60px,
-        260px 170px;
-
-    opacity: 0.28;
-    filter:
-        drop-shadow(0 0 5px rgba(125, 211, 252, 0.4))
-        drop-shadow(0 0 9px rgba(34, 211, 238, 0.22));
-
-    animation: heartBlink 2s ease-in-out infinite alternate;
 }
 
 /* =========================
@@ -107,11 +44,6 @@ body::after {
     border-radius: 999px;
     opacity: 0;
 
-    /*
-        Sao bay từ phải sang trái và đi xuống.
-        Vì vậy đầu sao nằm bên trái của vệt,
-        đuôi kéo dài về bên phải.
-    */
     transform: rotate(-32deg);
 
     background: linear-gradient(
@@ -154,7 +86,6 @@ body::after {
     content: "";
 }
 
-/* Vị trí và thời gian từng sao băng */
 .shooting-stars span:nth-child(1) {
     top: 5%;
     width: 210px;
@@ -710,6 +641,22 @@ input[type="file"] {
     color: #fff;
     text-decoration: none;
     transform: translateY(-1px);
+}
+
+.btn-add {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 10px;
+    color: #111827;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.22s;
+}
+
+.btn-add {
+    background: linear-gradient(135deg, #44ef7d, #31c53d);
 }
 
 /* =========================

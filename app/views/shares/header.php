@@ -9,7 +9,7 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="/webbanhang/public/css/style.css">
+    <link rel="stylesheet" href="/WebBanHang_CNPM/public/css/style.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark">
 
-    <a class="navbar-brand" href="/webbanhang/Product">
+    <a class="navbar-brand" href="/WebBanHang_CNPM/Product">
         <span class="brand-icon">✦</span>
         HoaiThuong Shop
     </a>
@@ -46,25 +46,25 @@
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
-                <a class="nav-link" href="/webbanhang/Product/">
+                <a class="nav-link" href="/WebBanHang_CNPM/Product/">
                     Sản phẩm
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/webbanhang/Product/add">
+                <a class="nav-link" href="/WebBanHang_CNPM/Product/add">
                     Thêm sản phẩm
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="/webbanhang/Category/list">
+                <a class="nav-link" href="/WebBanHang_CNPM/Category/list">
                     Danh mục
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link nav-highlight" href="/webbanhang/Category/add">
+                <a class="nav-link nav-highlight" href="/WebBanHang_CNPM/Category/add">
                     + Thêm danh mục
                 </a>
             </li>

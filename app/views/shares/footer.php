@@ -14,10 +14,10 @@
         <div class="footer-column">
             <h4>Liên kết nhanh</h4>
 
-            <a href="/webbanhang/Product">Danh sách sản phẩm</a>
-            <a href="/webbanhang/Product/add">Thêm sản phẩm</a>
-            <a href="/webbanhang/Category/list">Danh sách danh mục</a>
-            <a href="/webbanhang/Category/add">Thêm danh mục</a>
+            <a href="/WebBanHang_CNPM/Product">Danh sách sản phẩm</a>
+            <a href="/WebBanHang_CNPM/Product/add">Thêm sản phẩm</a>
+            <a href="/WebBanHang_CNPM/Category/list">Danh sách danh mục</a>
+            <a href="/WebBanHang_CNPM/Category/add">Thêm danh mục</a>
         </div>
 
         <div class="footer-column">

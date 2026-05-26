@@ -46,7 +46,7 @@ class CategoryController
 
             $this->categoryModel->addCategory($name);
 
-            header("Location: /webbanhang/Category/list");
+            header("Location: /WebBanHang_CNPM/Category/list");
         }
     }
 
@@ -72,7 +72,7 @@ class CategoryController
 
             $this->categoryModel->updateCategory($id, $name);
 
-            header("Location: /webbanhang/Category/list");
+            header("Location: /WebBanHang_CNPM/Category/list");
         }
     }
 
@@ -81,7 +81,7 @@ class CategoryController
     {
         $this->categoryModel->deleteCategory($id);
 
-        header("Location: /webbanhang/Category/list");
+        header("Location: /WebBanHang_CNPM/Category/list");
     }
 }
 ?>

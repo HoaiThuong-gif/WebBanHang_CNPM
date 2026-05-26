@@ -6,7 +6,7 @@
         <p>Quản lý các nhóm sản phẩm trong cửa hàng</p>
     </div>
 
-    <a href="/webbanhang/Category/add" class="category-add-btn">
+    <a href="/WebBanHang_CNPM/Category/add" class="category-add-btn">
         + Thêm danh mục mới
     </a>
 </div>
@@ -34,13 +34,13 @@
             <div class="category-actions">
 
                 <a
-                    href="/webbanhang/Category/edit/<?php echo $category->id; ?>"
+                    href="/WebBanHang_CNPM/Category/edit/<?php echo $category->id; ?>"
                     class="category-edit-btn">
                     Sửa
                 </a>
 
                 <a
-                    href="/webbanhang/Category/delete/<?php echo $category->id; ?>"
+                    href="/WebBanHang_CNPM/Category/delete/<?php echo $category->id; ?>"
                     class="category-delete-btn"
                     onclick="return confirm('Bạn có chắc chắn muốn xóa danh mục này?');">
                     Xóa

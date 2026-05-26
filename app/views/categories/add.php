@@ -24,7 +24,7 @@
 
 <form
     method="POST"
-    action="/webbanhang/Category/save"
+    action="/WebBanHang_CNPM/Category/save"
     onsubmit="return validateForm();">
 
     <div class="form-group">
@@ -46,7 +46,7 @@
 
 </form>
 
-<a href="/webbanhang/Category/list" class="btn btn-secondary mt-2">
+<a href="/WebBanHang_CNPM/Category/list" class="btn btn-secondary mt-2">
     Quay lại 
 </a>
 
